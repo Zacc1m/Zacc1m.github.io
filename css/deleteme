@@ -1,0 +1,105 @@
+@media screen and (max-width: 700px){
+    #navbar {
+    background-color: rgb(85, 84, 146);
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    }
+
+    #about_container {
+    padding: 10px;
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+
+    display: flex;
+    flex-direction: column;
+
+    }
+
+#background2 {
+
+    background-image: url(../background/pexels-daniel-putzer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* top: -700px; */
+    /* left:  */
+
+    width: 500px;
+    height: 500px;
+
+    margin: 0px;
+    padding: 0px;
+}
+    
+    #education_container {
+    padding: 10px;
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+
+    display: flex;
+    flex-direction: column;
+
+    }
+
+
+    #skills_container {
+    padding: 10px;
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+
+    display: flex;
+    flex-direction: column;
+
+    }
+
+
+    h1.header{
+    color: black;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(85, 84, 146);
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+    ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+
+    }
+
+
+    li{
+    display: inline;
+    padding: 5px;
+    margin: 20px;
+    }
+
+}

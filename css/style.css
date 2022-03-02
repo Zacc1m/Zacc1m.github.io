@@ -1,0 +1,184 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+:root {
+    --skill_left_padding: 50px;
+}
+body {
+    background-color: rgb(68, 48, 48);
+    /* background-color: rgba(207, 207, 207, 0.801); */
+    /* background-image: url(../background/cool-background10.png); */
+    
+    color: black;
+    width: 100%;
+    font-family: "Lato" /* Arial, Verdana, sans-serif */;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+#education_tag{
+    position: relative;
+    top: -10vh;
+}
+
+
+#skills_tag{
+    position: relative;
+    top: -5vh;
+}
+
+#projects_tag{
+    position: relative;
+    top: -5vh;
+}
+
+
+
+ h1.header{
+    color: black;
+    background-color: rgb(85, 84, 146);
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 20vw;
+    height: 5vh;
+    position: fixed;
+
+    font-family: "Times New Roman", Times, serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+}
+
+
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+
+image{
+    margin-top: 0px;
+}
+
+
+
+
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+
+
+.nomp{
+    margin: 20px;
+    padding: 0px;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* a:visited {
+  color: rgb(130, 0, 98);
+} */
+
+a:link, a:visited {
+  color: rgb(199, 189, 255);
+  text-decoration: none;
+}
+
+
+
+education_background{
+    
+}
+
+
+
+.socials{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: #495057; */
+    color: #fff;
+    /* fill: white; */
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: -2rem;
+
+    
+    
+
+}
+
+#mail{
+    background-image: url(../images/mail_white_24dp.svg);
+}
+
+
+#row{
+    display: flex;
+    flex-direction: row;
+}
+
+h1.education{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+    margin-right: 30px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+
+
+.checktext{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+#skills_margin{
+    margin-left: 100px;
+
+
+}
+.pclass {
+    padding: 0px 0px 0px var(--skill_left_padding);
+}
+
+#skills_margin2{
+    margin-left: 100px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.solid{
+    outline-style: solid;
+    color: white;
+}
+
